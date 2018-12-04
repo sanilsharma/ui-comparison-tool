@@ -1,0 +1,80 @@
+.form-element {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 50%;
+  height: auto;
+  padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  box-shadow: 5px 5px #888888;
+}
+
+.ignoreComments {
+  box-sizing: border-box;
+  border: 1px solid black;
+  box-shadow: 3px 3px #888888;
+  width: 35%;
+  height: auto;
+  float: right;
+}
+
+.checkbox1 {
+  box-sizing: border-box;
+  border: 1px solid black;
+  box-shadow: 3px 3px #888888;
+  width: 30%;
+  height: auto;
+  float: left;
+}
+
+label {
+  padding-right: 1%;
+  font-weight: 500;
+}
+
+.center {
+  text-align: center;
+}
+
+.urlCompare {
+  padding-top: 10%;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input[type="text"]:focus {
+  background-color: rgb(168, 241, 238);
+}
+
+input[type="button"],
+[type="submit"] {
+  /* background-color: #4caf50;
+  color: white; */
+  padding: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+input[type="button"]:hover {
+  background-color: #0f3fc4;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: #099644;
+  color: white;
+}
+
+.submitButton {
+  margin-top: 2%;
+}
+
+.input-wrapper {
+  display: inline-block;
+  width: calc(100% - 140px);
+}

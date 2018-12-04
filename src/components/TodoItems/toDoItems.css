@@ -1,0 +1,14 @@
+.theList {
+  font-style: italic;
+  list-style-type: none;
+}
+
+.delete {
+  margin-left: 20%;
+  cursor: pointer;
+  color: red;
+}
+
+.listItem {
+  font-size: 0.8em;
+}
